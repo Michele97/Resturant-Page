@@ -1,0 +1,36 @@
+.menuP{
+    width: 550px;
+    height: 350px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    
+    background-color: antiquewhite;
+    border-radius: 25px;
+
+     margin-top: 15px;
+     margin-bottom: 15px;
+}
+
+.menuP label{
+    font-weight: 600;
+}
+.menuP input{
+    width: 205px;
+    height: 30px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.menuP button{
+    width: 55px;
+    height: 35px;
+    float:right;
+    background-color: rgb(79, 79, 219);
+    border-radius: 15px;
+    margin-top:15px;
+    font-weight: 600;
+
+}
